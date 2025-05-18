@@ -1,0 +1,1 @@
+enleve les nodes modules de ce fdp de git : git rm -r --cached node_modules

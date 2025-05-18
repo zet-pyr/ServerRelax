@@ -1,0 +1,57 @@
+# Dépendances
+node_modules/*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Variables d'environnement et secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+config.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Cache et fichiers temporaires
+.npm
+.eslintcache
+.node_repl_history
+.yarn-integrity
+.cache/
+.temp/
+tmp/
+temp/
+
+# Fichiers de build et de sortie
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+
+# Éditeurs et IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.directory
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Fichiers spécifiques au projet Discord.js
+config.js
+config.json
+settings.json
+tokens.json
+auth.json
